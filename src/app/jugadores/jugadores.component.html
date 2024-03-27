@@ -1,0 +1,10 @@
+<!-- src/app/jugadores/jugadores.component.html -->
+<div>
+  <h1>Listado de Jugadores</h1>
+  <ul>
+    <li *ngFor="let jugador of jugadores">
+      <strong>{{ jugador.nombre }}</strong> - Edad: {{ jugador.edad }}, Posición: {{ jugador.posicion }}
+    </li>
+  </ul>
+</div>
+
