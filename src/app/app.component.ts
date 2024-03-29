@@ -8,9 +8,8 @@ import {JugadoresComponent} from "./jugadores/jugadores.component";
   standalone: true,
   imports: [CommonModule,RouterOutlet, JugadoresComponent],
   templateUrl: './app.component.html',
-
   styles: '',
 })
 export class AppComponent {
-  equipo = 'PACIFICO';
+
 }
